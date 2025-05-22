@@ -15,19 +15,14 @@ function App() {
     }
    }>Add</button>
 
-<br> </br> 
+
    <button onClick={
     () => {
      setvalue(value - 1);
     }
    }>Minus</button>
 
-<br> </br> 
-   <button onClick={
-    () => {
-     setvalue(0);
-    }
-   }>Reset</button>
+   
  </>
   )
 }
