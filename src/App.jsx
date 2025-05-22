@@ -16,14 +16,14 @@ function App() {
    }>Add</button>
 
 
-<br>  </br>
+<br>  </br> 
    <button onClick={
     () => {
      setvalue(value - 1);
     }
    }>Minus</button>
 
-<br>  </br>
+<br>  </br> 
    <button onClick={
     () => {
      setvalue(0);
